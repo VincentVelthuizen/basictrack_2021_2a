@@ -10,6 +10,8 @@ for step in range(15):
     ninja.forward(50)
     ninja.left(120)
 
+
+
     # after a complete triangle
     print(step, step % 3)
     if step % 3 == 2:
